@@ -5,7 +5,7 @@ import time
 import math
 
 plt.rcParams['animation.embed_limit'] = 300
-
+# change
 n = 200
 d = 0.01
 v = 0.01
@@ -95,6 +95,8 @@ def animate(frame):
 
     return q,
 
-
+#if __name__ == ’__main__’:
 ani = FuncAnimation(fig, animate, frames=200, interval=50, blit=True)
 plt.show()
+
+print('Test')
